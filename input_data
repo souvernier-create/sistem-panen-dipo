@@ -1,1 +1,6 @@
+# Berkas: panen.py
+def hitung_pendapatan(berat_kg):
+    harga_padi = 5000
+    return berat_kg * harga_padi
 
+print("Pendapatan Panen:", hitung_pendapatan(100))
